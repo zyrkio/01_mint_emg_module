@@ -1,0 +1,32 @@
+{
+    "name": "01_Mint_EMG_Module",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "emgsignal_converter_cyba": "github:zyrkio/emgsignal_converter_cyba#d480c9ecd5afedcb34ecfa3ea1e317d21d5bf463",
+        "pxt-kitronik-simple-servo": "github:kitronikltd/pxt-kitronik-simple-servo#v0.0.7",
+        "thresholdcalculate - Copy": "github:zyrkio/thresholdcalculate#1d25860047c06e97c0ea53c1dc493a17a54c6282"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.26",
+        "tag": "v6.0.26",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/0ba979dd8a8f411c37c20b5fd4faba5b43ef51aa",
+        "target": "6.0.28",
+        "pxt": "9.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
